@@ -6,7 +6,12 @@
 body {
   background-color: #db524d;
   color: white;
-  margin: 0 30%;
+  /* margin: 0 30%; */
+}
+
+main {
+  padding: 0 25%;
+  padding-bottom: 6rem;
 }
 
 #mega-nav {
@@ -150,7 +155,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   padding: 0rem 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .red-tick {
@@ -172,4 +177,72 @@ h2 {
   border: 0.1rem dashed rgba(255, 255, 255, 0.541);
   color: rgba(255, 255, 255, 0.541);
   font-weight: 600;
+}
+
+.state {
+  background-color: rgba(255, 255, 255, 0.253);
+  padding: 0.8rem;
+  margin-top: 2rem;
+  border-top: 1px solid white;
+}
+
+.state ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.541);
+  padding-left: 0;
+}
+
+.state ul span {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.info {
+  background-color: white;
+  color: #541c1f;
+  padding: 2rem 20%;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.info h2 {
+  text-align: left;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.line {
+  background-color: #db524d;
+  height: 0.2rem;
+  width: 1rem;
+  border-radius: 0.3rem;
+}
+
+a {
+  color: #db524d;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+ol li,
+ul li {
+  margin: 0.5rem;
+  font-weight: 300;
+}
+
+.info ul {
+  list-style: url(img/bullet.svg);
+}
+
+.info p {
+  font-weight: 300;
+}
+
+footer {
+  background-color: white;
+  padding: 2rem;
+}
+footer nav {
 }
