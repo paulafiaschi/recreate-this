@@ -12,7 +12,7 @@ body {
 #mega-nav {
   display: flex;
   justify-content: space-around;
-  border-bottom: 0.8px solid white;
+  border-bottom: 0.8px solid #541c1f49;
 }
 
 #mega-nav ul {
@@ -31,4 +31,51 @@ body {
   text-decoration: none;
   border-radius: 0.3rem;
   margin-left: 0.5rem;
+}
+
+#timer {
+  background-color: rgba(255, 255, 255, 0.253);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+}
+
+#timer ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+  font-weight: 600;
+  justify-content: space-evenly;
+  margin: 0;
+}
+#timer ul li {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.3rem;
+}
+
+.active {
+  background-color: #541c1f49;
+}
+
+#countdown {
+  font-size: 10rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+button {
+  background-color: white;
+  color: #db524d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 6rem;
+  padding: 1rem 5rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.4rem rgb(235, 235, 235);
+  cursor: pointer;
 }
