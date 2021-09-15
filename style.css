@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  padding: 0 25%;
+  padding: 0 30%;
   padding-bottom: 6rem;
 }
 
@@ -45,14 +45,13 @@ main {
   justify-content: space-around;
   align-items: center;
   border-radius: 0.5rem;
-  padding: 2rem 5rem;
+  padding: 2rem 0rem;
   margin-top: 2rem;
 }
 
 #timer ul {
   display: flex;
   list-style-type: none;
-  gap: 0.5rem;
   font-weight: 600;
   justify-content: space-evenly;
   margin: 0;
@@ -67,7 +66,7 @@ main {
 }
 
 #countdown {
-  font-size: 10rem;
+  font-size: 7rem;
   font-weight: 600;
   margin: 1rem;
 }
@@ -78,7 +77,7 @@ button {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0 6rem;
-  padding: 1rem 5rem;
+  padding: 0.75rem 4rem;
   border-radius: 0.5rem;
   border: none;
   box-shadow: 0 0.4rem rgb(235, 235, 235);
@@ -203,7 +202,7 @@ h2 {
 .info {
   background-color: white;
   color: #541c1f;
-  padding: 2rem 20%;
+  padding: 2rem 35%;
   border-bottom: 1px solid rgb(238, 238, 238);
 }
 
@@ -243,6 +242,39 @@ ul li {
 footer {
   background-color: white;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }
+
 footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+footer a,
+footer p {
+  color: #541c1f;
+}
+
+.red-link {
+  color: #db524d;
+}
+
+.rights {
+  color: #541c1f;
+  font-size: 0.65rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
 }
